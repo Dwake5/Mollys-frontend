@@ -5,7 +5,6 @@ import { BrowserRouter as Router, useLocation } from 'react-router-dom'
 
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 export default function ScrollToTop() {
   const { pathname } = useLocation();
@@ -25,4 +24,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker.unregister();
