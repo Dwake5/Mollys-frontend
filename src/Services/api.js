@@ -1,4 +1,5 @@
-const baseUrl = 'http://localhost:3000'
+// const baseUrl = 'http://localhost:3000'
+const baseUrl = 'https://mollys-backend.herokuapp.com'
 
 const signinUrl = baseUrl + '/signin'
 const validateUrl = baseUrl + '/validate'
