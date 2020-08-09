@@ -10,9 +10,9 @@ export const Div = styled.div`
     border: 2px solid #A9A9A9;
     font-size: 23px;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 20px -1px rgba(102,102,102,0.73);
-    -moz-box-shadow: 0px 0px 20px -1px rgba(102,102,102,0.73);
-    box-shadow: 0px 0px 20px -1px rgba(102,102,102,0.73);
+    -webkit-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
+    -moz-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
+    box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
 `
 
 export const Ul = styled.ul`
