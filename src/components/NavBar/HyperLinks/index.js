@@ -1,0 +1,52 @@
+import React from 'react'
+
+import pawPic from '../../../Images/paw.png'
+import housePic from '../Images/house.png'
+
+import { StyledLink, LinkDiv, Img, DownImg, PawImg } from './style'
+
+const HyperLinks = ({basic}) => {
+
+    return (
+        basic ?
+        <LinkDiv row>
+            <StyledLink basic="true" activeClassName="selected" exact to='/'>
+                Home <div>Page</div>
+            </StyledLink>
+            <StyledLink basic="true" activeClassName="selected" to='/Services' >
+                Services & Prices
+            </StyledLink>
+            <StyledLink basic="true" activeClassName="selected" to='/Gallery'>
+                Gallery
+            </StyledLink>
+            <StyledLink basic="true" activeClassName="selected" to='/BusinessRecommendations'>
+                Suggested Businesses
+            </StyledLink>
+            <StyledLink basic="true" activeClassName="selected" to='/Reviews'>
+                Customer Reviews
+            </StyledLink>
+        </LinkDiv>
+
+        : 
+
+        <LinkDiv>
+            <StyledLink activeClassName="selected" exact to='/'>
+                <Img src={housePic} alt='home'/>Home Page
+            </StyledLink>
+            <StyledLink activeClassName="selected" to='/Services' >
+                <DownImg src={pawPic} alt='paw'/>Services & <span>Prices</span>
+            </StyledLink>
+            <StyledLink activeClassName="selected" to='/Gallery'>
+                <PawImg src={pawPic} alt='paw'/>Gallery
+            </StyledLink>
+            <StyledLink activeClassName="selected" to='/BusinessRecommendations'>
+                <DownImg src={pawPic} alt='paw'/>Suggested <span>Businesses</span>
+            </StyledLink>
+            <StyledLink activeClassName="selected" to='/Reviews'>
+                <DownImg src={pawPic} alt='paw'/>Customer <span>Reviews</span>
+            </StyledLink>
+        </LinkDiv>
+    )
+}
+
+export default HyperLinks
