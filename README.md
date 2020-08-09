@@ -4,7 +4,7 @@ This project is for the business Mollys Pet & Home Care (Molly's). I am creating
 
 It has various pages and features.
 
-Currently it will have a permanent Header with logo, name and quote.
+Currently it will have a permanent sticky Header with logo, name and quote.
 
 A left held navbar, which will lead to:
 
