@@ -5,7 +5,7 @@ export const StyledLink = styled(NavLink)`
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    width: ${ props => props.basic ? '20%' : '187px'};
+    width: ${ props => props.basic ? '19%' : '187px'};
     font-size: 21px;
     margin-right: 5px;
     text-decoration: none;
@@ -15,7 +15,7 @@ export const StyledLink = styled(NavLink)`
     text-align: ${ props => props.basic && 'center'};
 
     @media screen and (max-width: 640px) {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     ${props => !props.basic && css`

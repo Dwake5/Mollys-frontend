@@ -37,12 +37,12 @@ export const ContactInfo = styled.p`
     margin-left: 15px;
     font-size: 20px;
 
-    @media screen and (max-width: 620px) {
-        font-size: 16px;
+    @media screen and (max-width: 640px) {
+        font-size: 14px;
     }
 
     @media screen and (max-width: 520px) {
-        font-size: 13px;
+        font-size: 12px;
     }
 `
 
@@ -86,12 +86,12 @@ export const Icloud = styled.div`
     margin-left: 15px;
     font-size: 20px;
 
-    @media screen and (max-width: 620px) {
-        font-size: 16px;
+    @media screen and (max-width: 640px) {
+        font-size: 14px;
     }
 
     @media screen and (max-width: 520px) {
-        font-size: 13px;
+        font-size: 12px;
     }
 `
 
