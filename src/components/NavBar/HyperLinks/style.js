@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const StyledLink = styled(NavLink)`
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: ${ props => props.basic ? '0px' : '10px'};
     width: ${ props => props.basic ? '19%' : '187px'};
     font-size: 21px;
     margin-right: 5px;
