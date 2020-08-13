@@ -126,6 +126,13 @@ export const LeftImage = styled.div`
         width: 190px;
         margin: auto;
     }
+
+    @media screen and (max-width: 640px) {
+        order: 2;
+        height: 170px;
+        width: 145px;
+        margin: auto;
+    }
 `
 
 export const RightImage = styled(LeftImage)`

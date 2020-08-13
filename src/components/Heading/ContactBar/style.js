@@ -31,6 +31,10 @@ export const Img = styled.img`
     width: 20px;
     margin-right: 4px;
     margin-bottom: -5px;
+
+    @media screen and (max-width: 640px) {
+        display: none;
+    }
 `
 
 export const ContactInfo = styled.p`
