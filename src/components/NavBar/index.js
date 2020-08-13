@@ -58,7 +58,7 @@ class NavBar extends Component {
 
                 {  
                 this.props.height > (780 + this.state.newsHeight) &&
-                    <NewsDiv id='news'>
+                    <NewsDiv id='news' news={this.state.currentNews.length > 0}>
                         <Title>What's New?</Title>
                         <News>{this.state.currentNews}</News>
                         { this.props.currentUser && 

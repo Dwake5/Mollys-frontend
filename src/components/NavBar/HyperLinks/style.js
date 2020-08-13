@@ -5,7 +5,7 @@ export const StyledLink = styled(NavLink)`
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    width: 187px;
+    width: ${ props => props.basic ? '20%' : '187px'};
     font-size: 21px;
     margin-right: 5px;
     text-decoration: none;
@@ -13,6 +13,10 @@ export const StyledLink = styled(NavLink)`
     margin-bottom: ${ props => props.basic ? '0' : '10px'};
     font-weight: ${({currentpage}) => currentpage ? '700' : '400'};
     text-align: ${ props => props.basic && 'center'};
+
+    @media screen and (max-width: 640px) {
+        font-size: 17px;
+    }
 
     ${props => !props.basic && css`
         :hover {

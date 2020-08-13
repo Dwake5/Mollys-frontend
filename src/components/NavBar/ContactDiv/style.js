@@ -68,8 +68,8 @@ export const DownImg = styled(Img)`
 export const Contact = styled.div`
     margin-top: 0px;
     margin-left: 15px;
-    width: '190px';
-    border: 2px solid grey;
+    width: 190px;
+    border: 1px solid grey;
     background: white;
     border-radius: 15px;
     margin-bottom: 40px;

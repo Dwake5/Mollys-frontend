@@ -92,4 +92,10 @@ export const Quote = styled.p`
     @media screen and (max-width: 720px) {
         margin: 0;
     }
+
+    @media screen and (max-width: 640px) {
+        display: none;
+    }
+
+
 `

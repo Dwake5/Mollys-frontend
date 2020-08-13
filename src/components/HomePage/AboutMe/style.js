@@ -41,3 +41,7 @@ export const Diamond = styled.img`
     margin-left: 5px;
     vertical-align: middle;
 `
+
+export const A = styled.a`
+    color: rgb(102,51,102)
+`

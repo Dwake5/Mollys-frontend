@@ -4,7 +4,7 @@ export const NavDiv = styled.div`
     border-radius: 0px 20px 20px 0px;
     width: 210px;
     position: fixed;
-    margin-top: 45px;
+    margin-top:15px;
     left: 0px;
 
     @media screen and (max-width: 720px) {
@@ -69,7 +69,7 @@ export const ContactDiv = styled.div`
     margin-top: 0px;
     margin-left: 15px;
     width: 180px;
-    border: 2px solid grey;
+    border: 1px solid grey;
     background: white;
     border-radius: 15px;
     margin-bottom: 40px;
@@ -81,6 +81,7 @@ export const NewsDiv = styled(ContactDiv)`
     text-align: center;
     font-size: 20px;
     margin-bottom: 40px;
+    display: ${props => !props.news && 'none'};
 `
 
 export const News = styled.p`

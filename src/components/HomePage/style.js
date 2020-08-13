@@ -10,6 +10,11 @@ export const PhotoDiv = styled.div`
     @media screen and (max-width: 1020px) {
         justify-content: space-around;
     }
+
+    @media screen and (max-width: 640px) {
+        display: none;
+    }
+
 `
 
 export const MainDiv = styled.div`
@@ -43,6 +48,11 @@ export const LeftDiv = styled.div`
     flex-direction: column;
     align-items: center;
     width: 70%;
+
+    @media screen and (max-width: 640px) {
+        width: 100%;
+        margin-right: 4%;
+    }
 `
 
 export const Img = styled.img`

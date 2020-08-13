@@ -24,7 +24,7 @@ export const CustomerQuote = styled.div`
 export const ReviewLink = styled.h3`
     text-decoration: underline;
     text-align: center;
-    color: purple;
+    color: rgb(102,51,102);
     font-size: 25px;
 
     :hover  {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-import { } from './style.js'
 
 import { patchNews } from '../../../Services/api'
 
@@ -24,7 +23,7 @@ class NewsForm extends Component {
 
     render() {
         return(
-            <div>
+            <div >
                 <textarea required type="text" value={this.state.news} placeholder="Whats new.." name='news' onChange={this.updateState}/>
                 <button onClick={() => this.submitNews()}>Submit</button>
             </div>
