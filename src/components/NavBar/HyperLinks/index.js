@@ -10,19 +10,19 @@ const HyperLinks = ({basic}) => {
     return (
         basic ?
         <LinkDiv row>
-            <StyledLink basic="true" activeClassName="selected" exact to='/'>
+            <StyledLink basic="true" activeClassName="noBold" exact to='/'>
                 Home <div>Page</div>
             </StyledLink>
-            <StyledLink basic="true" activeClassName="selected" to='/Services' >
+            <StyledLink basic="true" activeClassName="noBold" to='/Services' >
                 Services & Prices
             </StyledLink>
-            <StyledLink basic="true" activeClassName="selected" to='/Gallery'>
+            <StyledLink basic="true" activeClassName="noBold" to='/Gallery'>
                 Gallery
             </StyledLink>
-            <StyledLink basic="true" activeClassName="selected" to='/BusinessRecommendations'>
+            <StyledLink basic="true" activeClassName="noBold" to='/BusinessRecommendations'>
                 Suggested Businesses
             </StyledLink>
-            <StyledLink basic="true" activeClassName="selected" to='/Reviews'>
+            <StyledLink basic="true" activeClassName="noBold" to='/Reviews'>
                 Customer Reviews
             </StyledLink>
         </LinkDiv>

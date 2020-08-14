@@ -29,13 +29,13 @@ export const StyledLink = styled(NavLink)`
     `}
     
     ${props => props.basic && css`
-    :hover {
-        background: rgb(214, 228, 239);
-    }
-`}
+        :hover {
+            background: rgb(214, 228, 239);
+        }
+    `}
 
     &.${props => props.activeClassName} {
-        font-weight: 700;
+        font-weight: ${props => props.basic ? '400' : '700' };
     }
 
     &>span {
