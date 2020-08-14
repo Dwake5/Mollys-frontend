@@ -18,7 +18,7 @@ const ContactBar = () => {
 
             <StyledPhoneCall href='tel:07824381541'>
                 <ContactInfo>
-                    <Img src={phonePic} alt='phone'/>07824 381 541
+                    <Img src={phonePic} alt='phone'/>07824 381541
                 </ContactInfo>
             </StyledPhoneCall>
 

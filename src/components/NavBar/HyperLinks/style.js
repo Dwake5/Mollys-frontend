@@ -6,7 +6,7 @@ export const StyledLink = styled(NavLink)`
     padding-bottom: 5px;
     padding-left: ${ props => props.basic ? '0px' : '10px'};
     width: ${ props => props.basic ? '20%' : '187px'};
-    font-size: 21px;
+    font-size: ${ props => props.basic ? '19px' : '21px'};
     margin-right: ${ props => props.basic ? '0px' : '5px'};
     text-decoration: none;
     color: black;

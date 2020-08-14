@@ -61,10 +61,13 @@ export const P = styled.p`
 export const Div1 = styled.div`
     padding: 5px;
     text-align: center;
+
+    @media screen and (max-width: 700px) {
+        font-size: 16px;
+    }
 `
 
-export const Div2 = styled.div`
-    padding: 5px;
+export const Div2 = styled(Div1)`
     text-align: center;
     margin-bottom: 50px;
 `
