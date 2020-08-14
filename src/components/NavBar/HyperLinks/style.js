@@ -36,6 +36,7 @@ export const StyledLink = styled(NavLink)`
 
     &.${props => props.activeClassName} {
         font-weight: ${props => props.basic ? '400' : '700' };
+        background: ${props => props.basic && 'rgb(211, 229, 243)' }
     }
 
     &>span {
