@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const H2 = styled.h2`
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0;
+    margin: 10px;
 `
 
 export const Textarea = styled.textarea`
@@ -32,14 +33,21 @@ export const Input = styled.input`
 export const FormDiv = styled.div`
     background: #f1f1f1;
     width: 50%;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     padding: 0 5%;
     margin-bottom: 30px;
     border: 2px solid grey;
+    border-radius: 8px;
     -webkit-box-shadow: inset 0px 0px 51px 7px rgba(0,0,0,0.1);
     -moz-box-shadow: inset 0px 0px 51px 7px rgba(0,0,0,0.1);
     box-shadow: inset 0px 0px 51px 7px rgba(0,0,0,0.1);
+
+    @media screen and (max-width: 740px) {
+        max-width: none;
+        padding: 0 2%;
+        width: 60%;
+    }
 `
 
 export const Select = styled.select`

@@ -17,6 +17,10 @@ export const BusinessDiv = styled.div`
     @media screen and (max-width: 1550px) {
         flex-direction: column;
     }
+
+    @media screen and (max-width: 740px) {
+        font-size: 17px;
+    }
 `
 
 export const H3 = styled.h3`

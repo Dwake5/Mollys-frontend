@@ -13,6 +13,10 @@ export const Div = styled.div`
     -webkit-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
     -moz-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
     box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
+
+    @media screen and (max-width: 740px) {
+        font-size: 17px;
+    }
 `
 
 export const Ul = styled.ul`
@@ -29,6 +33,10 @@ export const Quote = styled.span`
     font-size: 26px;
     font-weight: 700;
     color: rgb(50,50,255, 0.75);
+
+    @media screen and (max-width: 740px) {
+        font-size: 21px;
+    }
 `
 
 export const BlockDiv = styled.div`

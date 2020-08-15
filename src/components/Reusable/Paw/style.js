@@ -4,7 +4,7 @@ export const Img = styled.img`
     height: 12px;
     margin: 0 ${props => props.margin ? props.margin : 0};
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 660px) {
         height: 9px;
     }
 `

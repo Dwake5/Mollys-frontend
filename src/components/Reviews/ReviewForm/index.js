@@ -173,7 +173,7 @@ class ReviewForm extends Component {
           <Label>
             Review: <Required>*</Required>
           </Label>
-          <Textarea required value={this.state.review} placeholder='Message..' type="text" name="review" onChange={this.updateState}/>
+          <Textarea required value={this.state.review} placeholder='Review..' type="text" name="review" onChange={this.updateState}/>
 
           { this.state.errors.length > 0 && 
             <ul>

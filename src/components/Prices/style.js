@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
     width: 100%;
+
+    @media screen and (max-width: 740px) {
+        font-size: 17px;
+    }
 `
 
 export const ServiceDiv = styled.div`
@@ -62,7 +66,11 @@ export const Div1 = styled.div`
     padding: 5px;
     text-align: center;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 740px) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 640px) {
         font-size: 15px;
     }
 `

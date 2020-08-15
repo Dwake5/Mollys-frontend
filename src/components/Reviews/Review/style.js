@@ -14,7 +14,7 @@ export const ReviewDiv = styled.div`
     position: relative;
     width: 80%;
     min-height: 100px;
-    margin-left: 10%;
+    margin: 0 auto;
     background: #f1f1f1;
     box-shadow: 0px 2px 5px 5px rgb(181, 200, 213);;
     margin-bottom: 30px;

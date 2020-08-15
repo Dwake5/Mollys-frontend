@@ -27,6 +27,10 @@ export const MainDiv = styled.div`
 export const Content = styled.div`
     display: flex;
     flex-grow: 9;
+
+    @media screen and (max-width: 740px) {
+        font-size: 17px;
+    }
 `
 
 export const TitleDiv = styled.div`

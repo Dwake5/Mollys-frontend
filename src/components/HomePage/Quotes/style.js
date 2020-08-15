@@ -30,6 +30,10 @@ export const ReviewLink = styled.h3`
     :hover  {
         cursor: pointer;
     }
+
+    @media screen and (max-width: 740px) {
+        font-size: 21px;
+    }
 `
 
 export const Div = styled.div`
