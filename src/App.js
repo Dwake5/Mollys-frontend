@@ -49,6 +49,7 @@ class App extends Component {
     window.scrollTo(0, 0);
   }
 
+  
 
   componentWillUnmount = () => {
     window.removeEventListener('resize', this.updateWindowDimensions());
@@ -62,10 +63,12 @@ class App extends Component {
   render() {
     const { signin, signout } = this
     const { currentUser, height } = this.state
+    console.log(height)
     return(
       <>
-        <Heading currentUser={currentUser} signin={signin} signout={signout} />
-        
+        { height > 450 &&
+          <Heading currentUser={currentUser} signin={signin} signout={signout} />
+        }
         <NavBar currentUser={currentUser} height={height}/>
 
         <MainDiv >

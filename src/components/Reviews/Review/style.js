@@ -19,6 +19,10 @@ export const ReviewDiv = styled.div`
     box-shadow: 0px 2px 5px 5px rgb(181, 200, 213);;
     margin-bottom: 30px;
     border-radius: 15px;
+
+    @media screen and (max-width: 740px) {
+        font-size: 17px;
+    }
 `
 
 export const MainText = styled.p`

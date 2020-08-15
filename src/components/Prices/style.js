@@ -63,7 +63,7 @@ export const Div1 = styled.div`
     text-align: center;
 
     @media screen and (max-width: 700px) {
-        font-size: 16px;
+        font-size: 15px;
     }
 `
 

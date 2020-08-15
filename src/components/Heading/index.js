@@ -14,7 +14,7 @@ const Heading = ({ currentUser, signin, signout }) => {
     || document.documentElement.clientWidth 
     || document.body.clientWidth;
     
-    function useCurrentWitdh() {
+    function useCurrentWidth() {
         // save current window width in the state object
         let [width, setWidth] = useState(getWidth());
         
@@ -35,11 +35,13 @@ const Heading = ({ currentUser, signin, signout }) => {
             }
         }, [])
         
-        return width;
+        return width
     }
     
-    let width = useCurrentWitdh()
+    let width = useCurrentWidth()
+
     return (
+        
         <HeaderDiv >
             <Div>
                 <Logo />

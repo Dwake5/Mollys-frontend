@@ -170,8 +170,16 @@ Track how many times a business link has been clicked on. (google analytics)
 
 Create piechart for user, for where people live.
 
+Make review form much better for mobile users, very hard to see at the moment.
+
+Make heading less high for mobile users. Looks a little bit squashed.
+
+Important! When clicking the form on mobile, hide the header and footer. --
+Dont show header if height is under ~400
 
 ## Completed
+
+Made mobile way more friendly and asthetic.
 
 Added margin-right to the hyperlinks for large screen.
 
