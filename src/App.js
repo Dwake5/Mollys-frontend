@@ -66,7 +66,7 @@ class App extends Component {
     console.log(height)
     return(
       <>
-        { height > 450 &&
+        { height > 500 &&
           <Heading currentUser={currentUser} signin={signin} signout={signout} />
         }
         <NavBar currentUser={currentUser} height={height}/>

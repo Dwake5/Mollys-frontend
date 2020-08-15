@@ -18,6 +18,10 @@ export const Textarea = styled.textarea`
     border: 0; 
     padding: 7px 7px; 
     border-bottom: 1px solid #ccc;
+
+    @media screen and (max-height: 500px) {
+        height: 210px;
+    } 
 `
 
 export const Input = styled.input`
@@ -48,6 +52,10 @@ export const FormDiv = styled.div`
         padding: 0 2%;
         width: 60%;
     }
+
+    @media screen and (max-height: 500px) {
+        width: 86%;
+    } 
 `
 
 export const Select = styled.select`

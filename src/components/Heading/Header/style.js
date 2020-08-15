@@ -48,7 +48,7 @@ export const H2 = styled.h2`
 
     @media screen and (max-width: 720px) {
         font-size: 17px;
-        margin-bottom: 5px;
+        margin-top: 5px;
     }
 `
 
