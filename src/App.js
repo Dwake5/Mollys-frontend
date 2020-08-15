@@ -63,7 +63,6 @@ class App extends Component {
   render() {
     const { signin, signout } = this
     const { currentUser, height } = this.state
-    console.log(height)
     return(
       <>
         { height > 500 &&

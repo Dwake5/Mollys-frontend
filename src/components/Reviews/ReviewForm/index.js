@@ -43,7 +43,6 @@ class ReviewForm extends Component {
 
   componentDidMount = () => {
     let formData = JSON.parse(sessionStorage.getItem('lastForm'))
-    console.log(formData)
     if (sessionStorage.lastForm) {
       this.setState({
         name: formData.name,

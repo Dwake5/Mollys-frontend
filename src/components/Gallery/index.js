@@ -43,7 +43,6 @@ class Photos extends React.Component {
     }
 
     handlePhotoIndexState = () => {
-        console.log('called')
         let pictureQuantity = this.state.listOfImages.length
         let newIndex = this.state.photoIndex + 1
         if (pictureQuantity === newIndex) {
@@ -61,14 +60,12 @@ class Photos extends React.Component {
             this.handlePhotoIndexState(),
             timer
         );
-        console.log('Starting timer id ' + this.timerID)
         // The next line does nothing except get rid of a React no unused var warning.
         return this.timerID
     }
 
     stopTimeout = () => {
-        console.log('cleared')
-        console.log('Trying to clear timer id ' + this.timerID)
+
         clearInterval(this.timerID)
     }
     
