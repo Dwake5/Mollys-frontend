@@ -7,13 +7,13 @@ export const HeaderDiv = styled.div`
     width: 100%;
     z-index: 10;
     top: 0%;
-    height: 120px;
+    height: 90px;
     left: 0px;
     background: #f1f1f1;
     box-shadow: 2px 2px rgba(241, 241, 241, 0.5);
 
     @media screen and (max-width: 1300px) {
-        height: 130px;
+        height: 100px;
     }
 `
 

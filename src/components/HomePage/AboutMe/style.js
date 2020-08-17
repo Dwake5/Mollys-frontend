@@ -8,7 +8,6 @@ export const Div = styled.div`
     margin-bottom: 20px;
     background: rgb(235, 235, 235);
     border: 2px solid #A9A9A9;
-    font-size: 23px;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
     -moz-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
@@ -23,6 +22,10 @@ export const Ul = styled.ul`
     padding-left: 25px;
 `
 
+export const P = styled.p`
+    margin: 15px 0;
+`
+
 export const H1 = styled.h2`
     text-align: center;
 `
@@ -30,7 +33,7 @@ export const H1 = styled.h2`
 export const Quote = styled.span`
     text-align: center;
     margin: 0;
-    font-size: 26px;
+    font-size: 19px;
     font-weight: 700;
     color: rgb(50,50,255, 0.75);
 
@@ -45,9 +48,8 @@ export const BlockDiv = styled.div`
 `
 
 export const Diamond = styled.img`
-    height: 25px;
+    height: 18px;
     margin-left: 5px;
-    vertical-align: middle;
 `
 
 export const A = styled.a`

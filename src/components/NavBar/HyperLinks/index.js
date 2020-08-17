@@ -3,7 +3,7 @@ import React from 'react'
 import pawPic from '../../../Images/paw.png'
 import housePic from '../Images/house.png'
 
-import { StyledLink, LinkDiv, Img, DownImg, PawImg } from './style'
+import { StyledLink, StyledLinkMiddle, LinkDiv, Img, DownImg, PawImg } from './style'
 
 const HyperLinks = ({basic}) => {
 
@@ -16,9 +16,9 @@ const HyperLinks = ({basic}) => {
             <StyledLink basic="true" activeClassName="noBold" to='/Services' >
                 Services & Prices
             </StyledLink>
-            <StyledLink basic="true" activeClassName="noBold" to='/Gallery'>
+            <StyledLinkMiddle basic="true" activeClassName="noBold" to='/Gallery'>
                 Gallery
-            </StyledLink>
+            </StyledLinkMiddle>
             <StyledLink basic="true" activeClassName="noBold" to='/BusinessRecommendations'>
                 Suggested Businesses
             </StyledLink>

@@ -2,19 +2,15 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
     width: 100%;
-
-    div:last-of-type {
-        margin-bottom: 20px;
-    }
 `
 
 export const BusinessDiv = styled.div`
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     width: 90%;
     margin-left: 5%;
 
-    @media screen and (max-width: 1550px) {
+    @media screen and (max-width: 1000px) {
         flex-direction: column;
     }
 
@@ -23,7 +19,12 @@ export const BusinessDiv = styled.div`
     }
 `
 
-export const H3 = styled.h3`
+export const BusinessDivLessBot = styled(BusinessDiv)`
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 540px) {
+        margin-bottom: 20px;
+    }
 `
 
 export const BusinessText = styled.div`
@@ -37,6 +38,8 @@ export const BusinessText = styled.div`
 
     > * {
         margin: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 `
     
@@ -54,9 +57,9 @@ export const ImgDivLeft = styled.div`
     align-items: center;
     margin: 0 1%;
 
-    @media screen and (max-width: 1550px) {
+    @media screen and (max-width: 1000px) {
         order: 2;
-        width: 50%;
+        width: 40%;
         padding: 20px 0;
         margin: auto;
     }
@@ -67,9 +70,9 @@ export const ImgDivRight = styled(ImgDivLeft)`
 `
 
 export const Picture = styled.img`
-    height: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+    height: 22px;
+    margin-right: 7px;
+    margin-left: 7px;
     border-radius: 40%;
     transition: transform .5s;
 
@@ -81,7 +84,8 @@ export const Picture = styled.img`
 export const LinkDiv = styled.div`
     display: flex;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
+    margin-bottom: 0px;
 `
 
 export const Anchor = styled.a`
@@ -95,7 +99,6 @@ export const AnchorLeft = styled.a`
 export const Address = styled.p`
     margin-top: 0;
     margin-bottom: 0;
-
 `
 
 export const ImgP = styled.div`

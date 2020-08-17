@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const NavDiv = styled.div`
     border-radius: 0px 20px 20px 0px;
-    width: 210px;
+    width: 158px;
     position: fixed;
     margin-top:15px;
     left: 0px;
 
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 540px) {
         display: none;
     }
 `
@@ -57,6 +57,8 @@ export const LeftMargin = styled.p`
 export const Title = styled.p`
     font-weight: bold;
     text-align: center;
+    margin-bottom: 4px;
+    margin-top: 10px;
 `
 
 export const DownImg = styled(Img)`
@@ -65,27 +67,23 @@ export const DownImg = styled(Img)`
     width: 18px;
 `
 
-export const ContactDiv = styled.div`
+export const NewsDiv = styled.div`
     margin-top: 0px;
-    margin-left: 15px;
-    width: 180px;
+    margin-left: 10px;
+    width: 137px;
     border: 1px solid grey;
     background: white;
     border-radius: 15px;
-    margin-bottom: 40px;
-`
-
-export const NewsDiv = styled(ContactDiv)`
-    width: 180px;
-    padding: 0 5px 5px 5px;
+    margin-bottom: 20px;
+    padding: 0 3px 3px 3px;
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 15px;
     display: ${props => !props.news && 'none'};
 `
 
+
 export const News = styled.p`
-    margin: 5px;
+    margin: 3px;
     text-align: center;
 `
 

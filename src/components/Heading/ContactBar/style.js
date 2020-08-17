@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 
 export const Picture = styled.img`
-    height: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
+    height: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
     transition: transform .5s;
 
     :hover {

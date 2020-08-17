@@ -51,14 +51,13 @@ class NavBar extends Component {
             <NavDiv>
                 <HyperLinks />
                                     
-                {  
-                this.props.height > 736 &&
+                { this.props.height > 512 &&
                     <ContactDiv />
                 }
 
-                {  
-                this.props.height > (780 + this.state.newsHeight) &&
+                {  this.props.height > (536 + this.state.newsHeight) &&
                     <NewsDiv id='news' news={this.state.currentNews.length > 0}>
+                    {console.log(this.state.newsHeight)}
                         <Title>What's New?</Title>
                         <News>{this.state.currentNews}</News>
                         { this.props.currentUser && 

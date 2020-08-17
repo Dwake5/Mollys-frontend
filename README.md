@@ -143,7 +143,7 @@ This website has been created with all screen sizes in mind, PC, Tablet and Phon
 
 There is a breakpoint at width 1550px
 
-Mobile will be for 720px width or less.
+Mobile will be for 540px width or less.
 
 When on mobile the screen changes radically and will look like this: 
 

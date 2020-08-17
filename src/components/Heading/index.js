@@ -49,7 +49,7 @@ const Heading = ({ currentUser, signin, signout }) => {
                 <SignIn currentUser={currentUser} signin={signin} signout={signout}/>
             </Div>
             {
-                width < 721 &&
+                width < 541 &&
                 <>
                     <HyperLinks row basic />
                     <ContactBar/> {/* Actually a footer */}

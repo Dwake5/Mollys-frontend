@@ -11,7 +11,7 @@ export const PhotoDiv = styled.div`
         justify-content: space-around;
     }
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 710px) {
         display: none;
     }
 
@@ -53,7 +53,7 @@ export const LeftDiv = styled.div`
     align-items: center;
     width: 70%;
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 710px) {
         width: 100%;
         margin-right: 4%;
     }
@@ -66,14 +66,14 @@ export const Img = styled.img`
 `
 
 export const Photo = styled.img`
-    height: 20vw;
-    min-height: 300px;
+    height: 18vw;
+    min-height: 270px;
     width: 12vw;
     min-width: 165px;
     margin: 0 20px;
     margin-bottom: 30px;
     border: 1px solid blue;
-    border-radius: 125px;
+    border-radius: 90px;
     box-shadow: 0 8px 6px -6px black;
     padding: 0 auto 50px auto;
 
@@ -82,7 +82,7 @@ export const Photo = styled.img`
         min-width: 150px;
     }
 
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 540px) {
         min-height: 300px;
         min-width: 165px;
     }

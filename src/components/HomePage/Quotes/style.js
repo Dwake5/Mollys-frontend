@@ -25,7 +25,7 @@ export const ReviewLink = styled.h3`
     text-decoration: underline;
     text-align: center;
     color: rgb(102,51,102);
-    font-size: 25px;
+    font-size: 19px;
 
     :hover  {
         cursor: pointer;

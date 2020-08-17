@@ -9,7 +9,7 @@ import homevisit2 from './Images/64.jpg'
 import petvisit1 from './Images/twocats.jpg'
 import petvisit2 from './Images/62.jpg'
 
-import { Div, Div1, Div2, ServiceDiv, MainServiceDiv, Image, H2, P, Table, TableShiftedLeft, TD, TDbold, TH, UL, LeftImage, RightImage } from './style'
+import { Div, Div1, Div2, ServiceDiv, MainServiceDiv, MainServiceDivLessBot, Image, H2, P, Table, TableShiftedLeft, TD, TDbold, TH, UL, LeftImage, RightImage, MarginLeftP } from './style'
 import { H1 } from '../../theme.js'
 
 const Services = () => {
@@ -17,19 +17,18 @@ const Services = () => {
         <Div>
             <H1>Services and Prices</H1>
             <Div1>
-                <PawImg blue margin='5px'/>Benfleet 
-                <PawImg blue margin='5px'/>Hadleigh 
-                <PawImg blue margin='5px'/>Leigh-on-Sea
-                <PawImg blue margin='5px'/>
+                <PawImg blue margin='4px'/>Benfleet 
+                <PawImg blue margin='4px'/>Hadleigh 
+                <PawImg blue margin='4px'/>Leigh-on-Sea
+                <PawImg blue margin='4px'/>
             </Div1>
             <Div2>
-                <PawImg blue margin='5px'/>Westcliff
-                <PawImg blue margin='5px'/>Southend 
-                <PawImg blue margin='5px'/>Southchurch 
-                <PawImg blue margin='5px'/>Thorpe Bay
-                <PawImg blue margin='5px'/>
+                <PawImg blue margin='4px'/>Westcliff
+                <PawImg blue margin='4px'/>Southend 
+                <PawImg blue margin='4px'/>Southchurch 
+                <PawImg blue margin='4px'/>Thorpe Bay
+                <PawImg blue margin='4px'/>
             </Div2>
-
 
             <MainServiceDiv>
 
@@ -112,7 +111,7 @@ const Services = () => {
                 </RightImage>
             </MainServiceDiv>
 
-            <MainServiceDiv>
+            <MainServiceDivLessBot>
 
                 <LeftImage>
                     <Image landscape alt='3 dogs' src={homevisit1} />
@@ -129,14 +128,14 @@ const Services = () => {
                         <li>Optional updates and photos can be sent.</li>
                         <li>Regular check-ins throughout the day.</li>
                     </UL>
-                    <p>£25 per night to stay over, in addition to the pricing of your dogs walks.</p>
+                    <MarginLeftP>£25 per night to stay over, in addition to the pricing of your dogs walks.</MarginLeftP>
                 </ServiceDiv>
 
                 <RightImage>
                     <Image alt='tortoises' src={homevisit2} />
                 </RightImage>
 
-            </MainServiceDiv>
+            </MainServiceDivLessBot>
 
 
         </Div>

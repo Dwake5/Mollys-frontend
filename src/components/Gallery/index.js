@@ -55,7 +55,7 @@ class Photos extends React.Component {
 
     startTimeout = () => {
         let width = window.innerWidth
-        let timer = width < 721 ? 2000 : 3000
+        let timer = width < 601 ? 2000 : 3000
         this.timerID = setInterval(() => 
             this.handlePhotoIndexState(),
             timer

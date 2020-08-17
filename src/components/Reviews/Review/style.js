@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Img = styled.img`
-    height: 70px;
-    min-width: 70px;
-    width: 70px;
+    height: 52px;
+    min-width: 52px;
+    width: 52px;
     border-radius: 50px;
     margin: 2px;
     box-shadow: 0px 0px 5px rgba(0,0,0, 0.3)
@@ -13,15 +13,15 @@ export const ReviewDiv = styled.div`
     display: flex;
     position: relative;
     width: 80%;
-    min-height: 100px;
+    min-height: 75px;
     margin: 0 auto;
     background: #f1f1f1;
     box-shadow: 0px 2px 5px 5px rgb(181, 200, 213);;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
     border-radius: 15px;
 
-    @media screen and (max-width: 740px) {
-        font-size: 17px;
+    @media screen and (max-width: 540px) {
+        font-size: 15px;
     }
 `
 

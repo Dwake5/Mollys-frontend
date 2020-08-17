@@ -1,17 +1,17 @@
 import styled from 'styled-components'
 
 export const Picture = styled.img`
-    width: 220px;
-    height: 120px;
+    width: 165px;
+    height: 90px;
 
     @media screen and (max-width: 1300px) {
-        height: 130px;
+        height: 100px;
     }
 `
 
 export const Div = styled.div`
-    margin-right: 40px;
-    width: 220px;
+    margin-right: 70px;
+    width: 165px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,8 +21,8 @@ export const Div = styled.div`
         margin-right: 10px;
     }
 
-    @media screen and (max-width: 720px) {
-        width: 160px;
+    @media screen and (max-width: 540px) {
+        width: 120px;
         margin: auto;
         padding: 0;
     }

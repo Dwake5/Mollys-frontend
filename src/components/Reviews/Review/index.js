@@ -75,7 +75,7 @@ class Review extends Component {
                     <MainText>{shorten(review)}<Span onClick={() => dontTruncate()}>Read More</Span></MainText> 
                 }
                 <BottomText>{handleName(name)}, {capitalize(area)}</BottomText>
-                {showExtra && (data.id > 0) &&
+                { showExtra && (data.id > 0) &&
                     <Config>
                         <Button onClick={() => handleDisplaySwitch(data.id, true)} bright={display}>Shown</Button>
                         <Button onClick={() => handleDisplaySwitch(data.id, false)} bright={!display}>Hidden</Button>

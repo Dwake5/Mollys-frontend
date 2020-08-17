@@ -54,7 +54,7 @@ export const FormDiv = styled.div`
     }
 
     @media screen and (max-height: 500px) {
-        width: 86%;
+        width: 76%;
     } 
 `
 
@@ -63,7 +63,7 @@ export const Select = styled.select`
     height: 31px;
     width: 100%;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 14px;
 `
 
 export const Label = styled.div`

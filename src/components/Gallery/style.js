@@ -18,7 +18,7 @@ export const SingleImageDiv = styled.div`
         width: 25%;
     }
 
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 540px) {
         width: 25%;
     }
 `

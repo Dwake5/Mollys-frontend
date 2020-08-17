@@ -6,8 +6,8 @@ class Header extends React.Component {
     state = {
         currentQuote: '',
         messages: [
-            '"If you want to be succesful in this world, you have to follow your passion, not a paycheck"',
             '"Wake up early everyday, so that while others are still dreaming, you can make your dreams come true."',
+            '"If you want to be succesful in this world, you have to follow your passion, not a paycheck"',
             `"You can't change a dogs past, but you could rewrite thier future"`,
             '"Animals do speak, but only to those who know how to listen"',
             '"It takes nothing away from a human to be kind to an animal."', 
@@ -57,11 +57,9 @@ class Header extends React.Component {
     render() {
         return(
             <HeadDiv>
-                <div>
-                    <H1>Molly's Pet & Home Care</H1>
-                    <H2>for when you can't be there</H2>
-                    <Quote>Quote of the Day: {this.state.currentQuote}</Quote>
-                </div>
+                <H1>Molly's Pet & Home Care</H1>
+                <H2>for when you can't be there</H2>
+                <Quote>Quote of the Day: {this.state.currentQuote}</Quote>
             </HeadDiv>
         )
     }

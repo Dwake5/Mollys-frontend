@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-    width: 220px;
+    width: 165px;
     height: auto;
     text-align: center;
 
@@ -28,7 +28,7 @@ export const Form = styled.div`
     width: 216px;
     position: fixed;
     z-index: 10;
-    top: 115px;
+    top: 100px;
     right: 0px;
     background: white;
     border: 2px solid grey;
