@@ -144,17 +144,13 @@ export const LeftImage = styled.div`
     }
 
     @media screen and (max-width: 850px) {
-        order: 2;
         height: 165px;
         width: 143px;
-        margin: auto;
     }
 
-    @media screen and (max-width: 640px) {
-        order: 2;
-        height: 170px;
-        width: 145px;
-        margin: auto;
+    @media screen and (max-width: 370px) {
+        height: 125px;
+        width: 110px;
     }
 `
 

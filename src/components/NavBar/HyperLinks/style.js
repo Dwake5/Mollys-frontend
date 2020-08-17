@@ -12,6 +12,7 @@ export const StyledLink = styled(NavLink)`
     margin-bottom: ${ props => props.basic ? '0' : '5px'};
     font-weight: ${({currentpage}) => currentpage ? '700' : '400'};
     text-align: ${ props => props.basic && 'center'};
+    padding: ${ props => props.basic && '0 1px'};
 
     @media screen and (max-width: 640px) {
         font-size: 16px;
@@ -19,6 +20,10 @@ export const StyledLink = styled(NavLink)`
 
     @media screen and (max-width: 500px) {
         font-size: 14px;
+    }
+
+    @media screen and (max-width: 370px) {
+        font-size: 12px;
     }
 
     ${props => !props.basic && css`
