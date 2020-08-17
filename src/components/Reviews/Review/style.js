@@ -16,9 +16,9 @@ export const ReviewDiv = styled.div`
     min-height: 75px;
     margin: 0 auto;
     background: #f1f1f1;
-    box-shadow: 0px 2px 5px 5px rgb(181, 200, 213);;
+    box-shadow: 0px 2px 5px 4px rgb(181, 200, 213);;
     margin-bottom: 22px;
-    border-radius: 15px;
+    border-radius: 14px;
 
     @media screen and (max-width: 540px) {
         font-size: 15px;

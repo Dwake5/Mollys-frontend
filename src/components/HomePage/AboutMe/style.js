@@ -8,10 +8,10 @@ export const Div = styled.div`
     margin-bottom: 20px;
     background: rgb(235, 235, 235);
     border: 2px solid #A9A9A9;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
-    -moz-box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
-    box-shadow: 0px 0px 20px rgba(102,102,102,0.73);
+    border-radius: 11px;
+    -webkit-box-shadow: 0px 0px 18px rgba(102,102,102,0.73);
+    -moz-box-shadow: 0px 0px 18px rgba(102,102,102,0.73);
+    box-shadow: 0px 0px 18px rgba(102,102,102,0.73);
 
     @media screen and (max-width: 740px) {
         font-size: 17px;
