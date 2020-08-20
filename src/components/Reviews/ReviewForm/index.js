@@ -165,7 +165,7 @@ class ReviewForm extends Component {
 
           <Select name='service'  onChange={this.updateState}>
               <option value="dog">Dog Walking</option>
-              <option value="cat">Pet Vistits</option>
+              <option value="cat">Pet Visits</option>
               <option value="house">House Sitting</option>
           </Select>
 
