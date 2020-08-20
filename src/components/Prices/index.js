@@ -119,7 +119,7 @@ const Services = () => {
 
                 <ServiceDiv>
                     <H2>House Sitting</H2>    
-                    <P>I provide various house sitting services.</P> 
+                    <P>I provide various house sitting services:</P> 
                     <UL>
                         <li>I look after dogs, cats and other animals for an additional cost.</li>
                         <li>Discounted rate after 7 days.</li>

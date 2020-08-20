@@ -44,6 +44,9 @@ export const H1 = styled.h1`
         font-size: 17px;
     }
 
+    @media screen and (max-width: 340px) {
+        font-size: 15px;
+    }
 `
 
 export const H2 = styled.h2`
@@ -70,6 +73,9 @@ export const H2 = styled.h2`
         font-size: 15px;
     }
 
+    @media screen and (max-width: 340px) {
+        font-size: 14px;
+    }
 `
 
 export const HeadDiv = styled.div`

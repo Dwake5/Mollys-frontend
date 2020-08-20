@@ -15,7 +15,7 @@ class ReviewForm extends Component {
 
   sendEmail = (name, area, message) => {
     
-    window.emailjs.init("user_eEDLQRiYBnrH92MR22rZA"); //please encrypted user id for malicious attacks
+    window.emailjs.init("user_eEDLQRiYBnrH92MR22rZA"); //please encrypt user id for malicious attacks
     
     let templateParams = {
       toWho: 'mollywakeling@icloud.com',
