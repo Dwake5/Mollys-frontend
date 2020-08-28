@@ -102,5 +102,5 @@ export const Red = styled.p`
     color: red;
     margin-bottom: 0px;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 16px;
 `
