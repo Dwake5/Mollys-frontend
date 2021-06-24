@@ -122,7 +122,6 @@ const Services = () => {
                     <P>I provide various house sitting services:</P> 
                     <UL>
                         <li>I look after dogs, cats and other animals for an additional cost.</li>
-                        <li>Discounted rate after 7 days.</li>
                         <li>In the comfort of your pet's home.</li>
                         <li>It includes home security when you are away; car, lights, open and close the blinds, watering plants and taking in mail.</li>
                         <li>Optional updates and photos can be sent.</li>
