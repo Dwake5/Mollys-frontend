@@ -1,42 +1,49 @@
-import React from 'react'
+import React from "react";
+import emailIcon from "../../../Images/emailgrey.png";
+import facebook from "../../../Images/greyfb.png";
+import instagram from "../../../Images/greyinsta.png";
+import phonePic from "../../../Images/greyphonelight.png";
+import {
+  Anchor,
+  AnchorRight,
+  Contact,
+  ContactInfo,
+  Icloud,
+  Img,
+  Picture,
+  StyledEmail,
+  StyledPhoneCall,
+} from "./style";
 
-
-import { Picture, Anchor, AnchorRight, Img, ContactInfo, Contact, Icloud, StyledEmail, StyledPhoneCall } from './style'
-
-import facebook from '../../../Images/greyfb.png'
-import instagram from '../../../Images/greyinsta.png'
-import emailIcon from '../../../Images/emailgrey.png'
-import phonePic from '../../../Images/greyphonelight.png'
-
-const fbLink = 'https://www.facebook.com/Mollyspetandhomecare/'
-const instaLink = 'https://www.instagram.com/mollyspetandhomecare/'
+const fbLink = "https://www.facebook.com/Mollyspetandhomecare/";
+const instaLink = "https://www.instagram.com/mollyspetandhomecare/";
 
 const ContactBar = () => {
+  return (
+    <Contact>
+      <StyledPhoneCall href="tel:07824381541">
+        <ContactInfo>
+          <Img src={phonePic} alt="phone" />
+          07824 381541
+        </ContactInfo>
+      </StyledPhoneCall>
 
-    return (
-        <Contact>
+      <StyledEmail href="mailto:mollywakeling@icloud.com">
+        <Icloud>
+          <Img src={emailIcon} />
+          mollywakeling@icloud.com
+        </Icloud>
+      </StyledEmail>
 
-            <StyledPhoneCall href='tel:07824381541'>
-                <ContactInfo>
-                    <Img src={phonePic} alt='phone'/>07824 381541
-                </ContactInfo>
-            </StyledPhoneCall>
+      <Anchor href={fbLink}>
+        <Picture src={facebook} />
+      </Anchor>
 
-            <StyledEmail href='mailto:mollywakeling@icloud.com'>
-                <Icloud>
-                    <Img src={emailIcon}/>mollywakeling@icloud.com
-                </Icloud>
-            </StyledEmail>
+      <AnchorRight href={instaLink}>
+        <Picture src={instagram} />
+      </AnchorRight>
+    </Contact>
+  );
+};
 
-            <Anchor href={fbLink} >
-                <Picture src={facebook}/>
-            </Anchor>
-
-            <AnchorRight href={instaLink} >
-                <Picture src={instagram}/>
-            </AnchorRight>
-        </Contact>
-    )
-}
-
-export default ContactBar
+export default ContactBar;

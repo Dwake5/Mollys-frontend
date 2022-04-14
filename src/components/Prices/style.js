@@ -134,7 +134,7 @@ export const LeftImage = styled.div`
     object-fit: contain;
     overflow: hidden;
     border-radius: 30px;
-    border: 1px solid blue;
+    border: 2px solid blue;
 
     @media screen and (max-width: 1125px) {
         order: 2;

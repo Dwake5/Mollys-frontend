@@ -1,76 +1,52 @@
-import React, { Component } from 'react'
-
-import { NavDiv, Title, NewsDiv, News } from './style'
-
-import NewsForm from './NewsForm'
-
-import HyperLinks from './HyperLinks'
-import ContactDiv from './ContactDiv'
-
-import { fetchNews }  from '../../Services/api'
+import React, { Component } from "react";
+import { fetchNews } from "../../Services/api";
+import ContactDiv from "./ContactDiv";
+import HyperLinks from "./HyperLinks";
+import { NavDiv } from "./style";
 
 class NavBar extends Component {
-    
-    state = {
-        formOpen: false,
-        currentNews: [],
-        newsHeight: 100
-    }
+  state = {
+    formOpen: false,
+    currentNews: [],
+    newsHeight: 100,
+  };
 
+  toggleForm = () => {
+    this.setState({
+      formOpen: !this.state.formOpen,
+    });
+  };
 
-    toggleForm = () => {
+  componentDidMount = () => {
+    fetchNews().then((data) => {
+      if (data.error) {
+        alert(data.error);
+      } else {
         this.setState({
-            formOpen: !this.state.formOpen
-        })
+          currentNews: data.news,
+        });
+      }
+    });
+
+    setTimeout(this.handleNewsHeight, 500);
+  };
+
+  handleNewsHeight = () => {
+    if (document.getElementById("news")) {
+      const height = document.getElementById("news").offsetHeight;
+      this.setState({ newsHeight: height });
     }
+  };
 
-    componentDidMount = () => {
-        fetchNews()
-        .then(data => {
-            if (data.error) {
-                alert(data.error)
-            } else {
-                this.setState({
-                    currentNews: data.news
-                })
-            }
-        })
+  render() {
+    return (
+      <NavDiv>
+        <HyperLinks />
 
-        setTimeout(this.handleNewsHeight, 500)
-    }
-
-    handleNewsHeight = () => {
-        if (document.getElementById('news')) {
-            const height = document.getElementById('news').offsetHeight;
-            this.setState({ newsHeight: height });
-        }
-    }
-
-    render() {
-        return(
-            <NavDiv>
-                <HyperLinks />
-                                    
-                { this.props.height > 512 &&
-                    <ContactDiv />
-                }
-
-                {  this.props.height > (536 + this.state.newsHeight) &&
-                    <NewsDiv id='news' news={this.state.currentNews.length > 0}>
-                    {console.log(this.state.newsHeight)}
-                        <Title>What's New?</Title>
-                        <News>{this.state.currentNews}</News>
-                        { this.props.currentUser && 
-                            <button onClick={this.toggleForm}>Change News?</button>
-                        }
-                        { this.state.formOpen &&
-                            <NewsForm />
-                        }
-                    </NewsDiv>
-                }
-            </NavDiv>
-        )
-    }
+        {this.props.height > 512 && <ContactDiv />}
+      </NavDiv>
+    );
+  }
 }
 
-export default NavBar
+export default NavBar;

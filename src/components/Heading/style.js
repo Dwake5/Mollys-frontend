@@ -20,5 +20,4 @@ export const HeaderDiv = styled.div`
 export const Div = styled.div`
     display: flex;
     width: 100%;
-    margin-bottom: -5px;
 `

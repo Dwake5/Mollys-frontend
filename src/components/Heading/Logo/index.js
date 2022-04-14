@@ -1,14 +1,13 @@
-import React from 'react'
-
-import { Picture, Div } from './style'
-import logo from './MollysLogo.png'
+import React from "react";
+import logo from "./MollysLogo.png";
+import { Div, Picture } from "./style";
 
 const Logo = () => {
-    return(
-        <Div>
-            <Picture src={logo}/>
-        </Div>
-    )
-}
+  return (
+    <Div>
+      <Picture src={logo} />
+    </Div>
+  );
+};
 
-export default Logo
+export default Logo;

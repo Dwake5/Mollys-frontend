@@ -1,6 +1,6 @@
 ## Mollys Pet & Home Care
 
-This project is for the business Mollys Pet & Home Care (Molly's). I am creating thier first website.
+This project is for the business Mollys Pet & Home Care (Molly's). I am creating their first website.
 
 It has various pages and features.
 
@@ -160,7 +160,9 @@ The contact info and news div, looked poor when the screen cut them off slightly
 The height of the news div changes based on the length of the news message, this is also accounted for in the code. 
 
 
-## To Do
+
+
+## Completed
 
 Change where the news form is, its not user friendly at the moment.
 
@@ -175,9 +177,7 @@ Make review form much better for mobile users, very hard to see at the moment.
 Make heading less high for mobile users. Looks a little bit squashed.
 
 Important! When clicking the form on mobile, hide the header and footer. --
-Dont show header if height is under ~400
-
-## Completed
+Don't show header if height is under ~400
 
 Made mobile way more friendly and asthetic.
 
@@ -193,7 +193,7 @@ Slideshow 2 seconds interval if on mobile, 3 otherwise.
 
 Important scroll to top on every page change.
 
-cutSidesOfText doesnt work correctly with a single letter - fixed.
+cutSidesOfText doesn't work correctly with a single letter - fixed.
 
 The form remembers data entry on page change and refresh, decided to use sessionStorage, not local, meaning that it will purposefully forget the data on page close. 
 
