@@ -68,7 +68,7 @@ const Business = () => {
       <BusinessDiv>
         <BusinessText>
           <h3>Melody Fisher Photography</h3>
-          <p>Melody is a 23 year old Essex-based dog and horse photographer.</p>
+          <p>Melody is an Essex-based dog and horse photographer.</p>
           <p>She offers one-to-one sessions as well as event photography.</p>
           <p>Melody has a Ba Hons in Photography and an ARPS Distinction.</p>
           <p>She is fully insured and DBS checked.</p>
