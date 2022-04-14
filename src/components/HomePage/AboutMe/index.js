@@ -25,7 +25,7 @@ const AboutMe = () => {
       <P>
         <PawImg margin="4px" />
         <A href="https://www.crufts.org.uk">
-          Attended Crufts 10-13th March 2022 and in 2020
+          Attended Crufts 10-13th March 2022 and 2020
         </A>
       </P>
       <P>
